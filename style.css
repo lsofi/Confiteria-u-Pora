@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    }
 .header{
    background-color:#619866;
    color: white;
@@ -61,7 +67,7 @@
 
 .menu__item {
 	position: relative;
-	margin-bottom: 35px;
+	margin-bottom: 44px;
 }
 
 .img-menu,
@@ -69,8 +75,8 @@
 	display: inline-block;
 }
 .img-menu{
-    width: 70px;
-    height: 70px;
+    width: 115px;
+    height: 91px;
 }
 
 .menu__caption {
@@ -104,7 +110,7 @@
 .precio-menu {
 	position: absolute;
 	top: 0;
-	left: calc(83.33% );
+    margin-left: 380px;
 }
 
 .staff {
@@ -134,6 +140,8 @@ h3{
 	width: 100%;
 	max-width: 270px;
     border: 2px solid black;
+    height: 157px;
+    margin-bottom: 22px
 }
 
 .social__staff-group,
@@ -145,7 +153,7 @@ h3{
 	display: inline-block;
 	width: 14px;
 	height: 14px;
-    color: rgb(184, 184, 61);
+    color: #fff;
 }
 
 .staff__name {
@@ -178,7 +186,7 @@ h3{
     font-weight: 500;
     color: #619866;
     margin-bottom: 23px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .col1 {
@@ -224,6 +232,7 @@ h3{
 	padding-bottom: calc(95px - 35px);
     background-color: #fff;
     height: 625px;
+    margin-bottom: 10px;
 }
 
 .map{
@@ -287,4 +296,10 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+nav{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
 }
