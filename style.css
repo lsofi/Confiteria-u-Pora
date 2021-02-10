@@ -4,10 +4,12 @@
    height: 450px;
    font-family: 'Courier New', Courier, monospace;
 }
+
 .line{
     height: 5px;
     background-color: rgb(218, 218, 65);
 }
+
 #welcome{
     text-align: center;
     margin-top: 150px;
@@ -15,6 +17,7 @@
     font-family: wildYouth, "Brush Script MT", cursive;
     font-weight: 400;
 }
+
 #titulo{
     text-align: center;
     font-family: Average, "Times New Roman", Times, serif;
@@ -25,6 +28,7 @@
     color: #fff;
     white-space: nowrap;
 }
+
 #subtitulo{
     text-align: center;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -33,6 +37,7 @@
     color: #fff;
     padding-top: 15px
 }
+
 .menu {
 	width: 100%;
 	padding-top: 85px;
@@ -40,6 +45,7 @@
 	text-align: center;
     background-color: #fff;
 }
+
 #men-tit{
     text-align: center;
     font-size: 50px;
@@ -47,9 +53,7 @@
     font-weight: 500;
     color: #619866;
 }
-/* .menu, #men-tit { 
-    margin-top: 10px; 
-} */
+
 .menu__item-group {
 	text-align: left;
 	margin-top: 80px;
@@ -59,6 +63,7 @@
 	position: relative;
 	margin-bottom: 35px;
 }
+
 .img-menu,
 .menu__caption {
 	display: inline-block;
@@ -67,6 +72,7 @@
     width: 70px;
     height: 70px;
 }
+
 .menu__caption {
 	position: absolute;
 	top: 50%;
@@ -75,10 +81,12 @@
 	padding-right: calc(.16 * (100% - 70px) + 20px);
 	padding-left: calc(30px - 4px);
 }
+
 .titulo-menu,
 .descripcion {
 	display: block;
 }
+
 .titulo-menu, .precio-menu{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 0.8em;
@@ -86,16 +94,19 @@
     letter-spacing: 0.12em;
     text-transform: uppercase;
 }
+
 .descripcion{
     margin-top: 10px;
     font-size: 15px;
     color: rgb(184, 184, 61);
 }
+
 .precio-menu {
 	position: absolute;
 	top: 0;
 	left: calc(83.33% );
 }
+
 .staff {
 	width: 100%;
 	padding-top: 85px;
@@ -103,6 +114,7 @@
 	text-align: center;
     background-color: #619866;
 }
+
 h3{
     text-align: center;
     font-size: 50px;
@@ -110,6 +122,7 @@ h3{
     font-weight: 500;
     color: #fff;
 }
+
 .staff h3 { margin-top: 10px; }
 
 .staff__person-group { margin-top: 90px; }
@@ -134,6 +147,7 @@ h3{
 	height: 14px;
     color: rgb(184, 184, 61);
 }
+
 .staff__name {
 	margin-top: 50px;
 	font-family: sans-serif;
@@ -155,4 +169,122 @@ h3{
 .staff__desc {
 	font-size: .8em;
 	line-height: 1.5625;
+}
+
+#tit-reserv{
+    text-align: center;
+    font-size: 50px;
+    font-family: wildYouth, "Brush Script MT", cursive;
+    font-weight: 500;
+    color: #619866;
+    margin-bottom: 23px;
+    margin-top: 80px;
+}
+
+.col1 {
+    padding: 2px;
+    margin-right: 5px;
+    width: 300px;
+    float: left;
+}
+
+.col2 {
+
+    padding: 2px;
+    margin-right: 5px;
+    width: 300px;
+    float: left;
+}
+
+.col3 {
+
+    padding: 2px;
+    margin-right: 5px;
+    width: 500px;
+    float: left;
+}
+
+.menur-images{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.reserv-form{
+    margin-left: 46px;
+    margin-top: 19px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.reserv{
+    width: 100%;
+	padding-bottom: calc(95px - 35px);
+    background-color: #fff;
+    height: 625px;
+}
+
+.map{
+    width: 100%;
+	padding-top: 85px;
+	padding-bottom: calc(90px - 30px);
+	text-align: center;
+    background-color: #619866;
+    height: 500px;
+}
+
+.horarios{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 89px;
+}
+
+.colhorario{
+    width: 600px;
+    float: left;
+}
+
+.colmap{
+    padding: 2px;
+    margin-right: 5px;
+    width: 300px;
+    float: left;
+}
+
+#tit-horario{
+    text-align: center;
+    font-size: 50px;
+    font-family: wildYouth, "Brush Script MT", cursive;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+#horar{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#map-img{
+    margin-left: 57px;
+}
+
+footer {
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}
+
+p.copyright {
+    margin: 15px 0 0;
 }

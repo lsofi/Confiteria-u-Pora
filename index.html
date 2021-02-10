@@ -8,34 +8,52 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>  
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
+
+   <script>
+       $(function() {
+               $("#datepicker").datepicker()
+       });
+   </script>
+</head>
     <title>Confiteria Ñu Pora</title>
   </head>
   <body>
     <body>
-        <!-- <nav class="navbar navbar-default navbar-fixed-top">
-              <div class="container">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Confiteria Ñu Pora</a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Bienvenido</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Reservas</a></li>
-                    <li><a href="#">Reseñas</a></li>
-                    <li><a href="#">Como llegar</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav> -->
-
+        <!-- Beggining of navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="position: fixed; width: 100%; background-color: transparent; z-index: 3000;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="logo.PNG" alt="" width="30" height="24">
+            </a>
+            <a class="navbar-brand ml-5" href="#home">Confiteria Ñu Pora</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0" style="margin-left:auto;">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Bienvenido</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-3"  href="#about">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-3" href="#features">Reservas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-3 mr-3"  href="#contact">Staff</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-3 mr-3"  href="#contact">Cómo llegar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
         <!-- Beginning of home section -->
         <section class="header" id="header">
             <div class="container pt-5">
@@ -203,6 +221,124 @@
 			</div>
 		</section>
     <div class="line"></div>
+
+    <!-- Beggining of Reservations -->
+    <section class="reserv parallax">
+      <div class="container">
+        <h3 id="tit-reserv">Reservas</h3>
+        <div class="col1">
+          <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.ristobartwentyfive.com/wp-content/uploads/2019/07/restaurant-food-salat-2.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.pinimg.com/originals/50/0a/12/500a12cea5a1ca15dddea96d7ba46acf.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://media.företagsakuten.com/2019/11/restaurant_2999753b.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/11/14/0/FN_healthy-fast-food-applebees-steak_s4x3.jpg.rend.hgtvcom.441.331.suffix/1510694267044.jpeg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://isinglassinc.com/wp-content/uploads/2015/03/restaurant-food-01.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/f6/0b/af/spice-nice-restaurant.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://cf.bstatic.com/data/xphoto/1182x887/222/22281452.jpg?size=S" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.thesun.co.uk/wp-content/uploads/2020/08/NINTCHDBPICT000603046726.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://italyfoodshop.it/wp-content/uploads/2019/08/italian-food-salumi-ham-prosciutto.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.iberinbound.com/wp-content/uploads/2016/02/Spanish-food-a-gastronomic-gem.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.contiki.com/six-two/wp-content/uploads/2015/02/spanish-dishes-1.jpg" class="d-block w-100 menur-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://qph.fs.quoracdn.net/main-qimg-fa126bcd7d550a755f478101397e7d0c.webp" class="d-block w-100 menur-images" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col3">
+          <form class="reserv-form">
+            <div class="mb-3">
+              <label for="tel-reserv" class="form-label">Reserva a nombre de</label>
+              <input type="reserv" class="form-control" id="tel-reserv" aria-describedby="reservHelp">
+            </div>
+            <div class="mb-3">
+              <label for="tel-reserv" class="form-label">Numero de Telefono</label>
+              <input type="tel-reserv" class="form-control" id="tel-reserv" aria-describedby="reservHelp">
+            </div>
+            <div class="mb-3">
+              <label for="Cantidad comensales" class="form-label">Cantidad Comensales</label>
+              <input type="comensales" class="form-control" id="Cantidad comensales">
+            </div>
+            <div id="datepicker fecha-reserv">Fecha</div>
+            <button type="submit" class="btn btn-primary">Reservar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!-- Beggining of how to arrive -->
+    <section class="map">
+      <div class="container">
+        <h3 id="tit-horario" data-scroll-reveal>Cómo llegar</h3>
+        <div class="colhorario">
+          <div class="horarios">
+            <span id="horar">Martes a Viernes</span>
+            <p>17:00 a 00:00 Hs.</p>
+            <span id="horar">Sabados y Domingos</span>
+            <p>09:00 a 02:00 Hs.</p>
+          </div>
+        </div>
+        <div class="colmap">
+          <iframe id="map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2413.673729463813!2d-64.31760878751376!3d-31.180530490284035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb80ffe1f7dff77f0!2zQ29uZml0ZXLDrWEgw5F1IFBvcsOh!5e0!3m2!1sen!2sar!4v1612972065673!5m2!1sen!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <!--  Beggining of copyright-->
+    <footer>
+      <div class="container">
+          <div class="row">
+              <p class="copyright text-muted small text-center">Copyright &copy; <a href="mailto: sjuarezvillagra@gmail.com" class="btn-a" id="footer-span">Lourdes Sofia Juarez y Villagra </a>2021.All Rights Reserved</p>
+          </div>
+      </div>
+  </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
