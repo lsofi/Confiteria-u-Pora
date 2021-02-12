@@ -1,0 +1,45 @@
+@media (max-width: 575.98px) { 
+    #welcome{
+        font-size: 48px;
+    }
+    #titulo{
+        font-size: 2.8em;
+    }
+    .precio-menu{
+    margin-left: 267px;
+    }
+    .staff__person{
+        margin-left: 55px;
+        padding-right: 25px;
+    }
+    .social__staff-group{
+        margin-top: 9px;
+    }
+    .staff__desc{
+        margin-top:9px;
+    }
+    .col1, .col2{
+        width: 201px;
+        margin-left: 17px;
+    }
+    .reserv{
+        height: 1006px;
+    }
+    .reserv-form{
+        margin-left: 10px;
+    }
+    .horarios{
+        margin-top: 0px;
+        margin-right: 106px;
+        margin-bottom: 19px;
+    }
+    .map{
+        height: 713px
+    }
+    #map-img {
+        margin-left: 42px;
+    }
+    p.copyright {
+        margin: -33px 6px 4px;
+    }
+}
