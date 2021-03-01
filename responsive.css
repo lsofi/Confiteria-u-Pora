@@ -144,3 +144,64 @@
         height: 713px
     }
 }
+@media(min-width:576px) and (max-width: 767px){
+    .precio-menu{
+        margin-left: 318px;
+    }
+    .staff__desc{
+        padding-bottom: 41px;
+    }
+    .col1, .col2{
+        width: 221px;
+        margin-left: 28px;
+    }
+    .reserv{
+        height: 1000px;
+    }
+    .horarios{
+        margin: -3px  0px 12px -100px;
+    }
+    .map{
+        height: 713px
+    }
+}
+@media(min-width: 768px) and (max-width:991px){
+    body{
+        overflow-x: hidden;
+    }
+    .precio-menu{
+        margin-left: 187px;
+    }
+    .titulo-menu, .precio-menu, .descripcion{
+        font-size: 12px;
+    }
+    .img-menu{
+       width: 102px;
+    }
+    .reserv{
+        height: 1000px;
+    }
+    .col1, .col2{
+        margin-left: 31px;
+    }
+    .colhorario{
+        width: 284px;
+    }
+    .horarios{
+        margin-top: 33px;
+    }
+    #map-img {
+        margin-left: 20px;
+    }
+}
+@media(min-width:992px) and (max-width: 1200px){
+    .precio-menu{
+        margin-left: 266px;
+    }
+    .col1, .col2{
+        width: 209px;
+    }
+    .colhorario {
+        width: 443px;
+    }
+}
