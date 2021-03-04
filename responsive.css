@@ -1,4 +1,55 @@
-@media (max-width: 511px) { 
+@media (min-width:320px) and (max-width: 425px){
+    body{
+       width: fit-content;
+       overflow-x: hidden;
+    } 
+    .navbar-toggler {
+        padding: 0.25rem 2.75rem;
+    }
+    .precio-menu{
+        margin-left: 340px;
+    }
+    .staff{
+        padding-right: 33px;
+    padding-left: 14px;
+    }
+    .staff__image{
+        margin-left: 87px;
+        margin-right: 131px;
+    }
+    .social__staff-group{
+        margin-top: 9px;
+    }
+    .staff__desc{
+        margin-top:9px;
+    }
+    .col1, .col2 {
+        width: 255px;
+        margin-left: 15px;
+    }
+    .reserv{
+        height: 1006px;
+    }
+    .reserv-form{
+        margin-left: 10px;
+    }
+    .horarios{
+        margin: 0px 106px 19px 82px;
+    }
+    .map{
+        height: 713px
+    }
+    #map-img {
+        margin-left: 83px
+    }
+    p.copyright {
+        margin: -33px 6px 4px;
+    }
+    .menur-images{
+        height: 188px;
+    }
+}
+ @media (min-width: 425px) and (max-width: 511px) { 
     #welcome{
         font-size: 48px;
     }
@@ -194,7 +245,13 @@
         margin-left: 20px;
     }
 }
-@media(min-width:992px) and (max-width: 1200px){
+@media(min-width:992px) and (max-width: 1024px){
+    body{
+        width:auto;
+    }
+    .navbar-nav{
+        margin-left: 375px  !important;
+    }
     .precio-menu{
         margin-left: 266px;
     }
@@ -203,5 +260,16 @@
     }
     .colhorario {
         width: 443px;
+    }
+}
+@media(min-width:1440px){
+    .navbar-nav{
+        margin-left: 790px  !important;
+    }
+    .preci4{
+        margin-left: 446px;
+    }
+    .reserv-form {
+        margin-left: 92px;
     }
 }
